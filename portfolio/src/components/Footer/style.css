@@ -1,6 +1,6 @@
-.footer {
+/* .main-footer {
   min-height: 100px;
-  background: #E5E5E5;
+  background:#f8f9fa;
   position: relative;
 }
 
@@ -11,4 +11,12 @@
   right: 0;
   padding: 3px;
   background: #B8B8B8;
-}
+} */
+
+/* :root{
+  --mainDark: #343a40;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainRed: red;
+} */

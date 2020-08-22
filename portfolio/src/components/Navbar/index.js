@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css"; 
 import Logo from "../../images/Nina Rocket Icon Red Outline.png"; 
 
@@ -14,9 +15,8 @@ const Navbar = ({ element }) => {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav ml-auto">
-      <a className="nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
-      <a className="nav-link" href="/">Features</a>
-   
+      <Link className="nav-link active" to="/portfolio">Portfolio <span className="sr-only">(current)</span></Link>
+      <Link className="nav-link" to="/contact">Contact</Link>
      
     </div>
   </div>

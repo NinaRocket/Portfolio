@@ -1,11 +1,13 @@
 import React from 'react'; 
+import styled from "styled-components";
 // import Container from "../components/Container";
 // import Row from "../components/Row";
 // import Col from "../components/Col";
-import Bio from "../images/Ninabio.jpg"; 
+import Bio from "../images/Nina.jpg"; 
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+
 
 function About(){
 
@@ -19,11 +21,11 @@ function About(){
             </Col>
           </Row>
           <Row>
-            <Col size="col-md-3 col-sm-12">
-              <img src={Bio} alt="Nina, a late 30's woman is smiling"
+            <Col size="col-4">
+              <img src={Bio}  alt="Nina, a late 30's woman is smiling"
                className="img-thumbnail"/>
             </Col>
-             <Col>
+             <Col size="col-6">
                   <h3>Welcome to my page!</h3>
                   <p className="card-text"> My name is Nina Rocket and I am a full time working Mom
                       to 6 unique individual humans.
