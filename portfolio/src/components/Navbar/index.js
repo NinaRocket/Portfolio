@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css"; 
-import Logo from "../../images/Nina Rocket Icon Red Outline.png"; 
+import Logo from "../../images/redicon.svg"; 
 
 
 const Navbar = ({ element }) => {
@@ -9,8 +9,8 @@ const Navbar = ({ element }) => {
    
 <nav className="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
   <a className="navbar-brand" href="/">{element}
-    <img src={Logo} alt="logo" className="welcome--logo" width="60" height="60" alt="" loading="lazy" /></a>
-    
+    <img src={Logo} alt="logo" className="welcome--logo" width="65" height="65" alt="" loading="lazy" /></a>
+
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
