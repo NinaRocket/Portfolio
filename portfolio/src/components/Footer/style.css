@@ -20,3 +20,8 @@
   --mainWhite: #fff;
   --mainRed: red;
 } */
+
+footer, 
+.push{
+    height: 56px; 
+}

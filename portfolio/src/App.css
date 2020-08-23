@@ -37,20 +37,17 @@
   }
 }
 
-.img-thumbnail {
-  padding: .25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: .25rem;
-  max-width: 60%;
-  height: auto;
-}
 
 :root{
   --mainDark: #343a40;
   --mainGrey: rgba(109, 109, 109);
   --mainLightGrey: #f8f9fa;
   --mainWhite: #fff;
-  --mainRed: red;
+  --mainRed:rgb(201, 20, 20);
   
+}
+
+footer, 
+.push{
+    height: 56px; 
 }

@@ -8,14 +8,14 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper"; 
 import Footer from "./components/Footer";
-//import HeroImg from "../../../public/assets/HeroImg.jpg";
+
 
 
 function App() {
    return(
      <Router>
             <div>
-               <Hero backgroundImage="https://raw.githubusercontent.com/NinaRocket/Portfolio/master/portfolio/src/images/HeroIm.jpg">
+              <Hero backgroundImage="https://raw.githubusercontent.com/NinaRocket/Portfolio/master/portfolio/src/images/HeroIm.jpg">
          
          </Hero>
             <Navbar />
@@ -25,6 +25,7 @@ function App() {
               <Route exact path="/portfolio" component={Portfolio} /> 
               <Route exact path="/contact" component={Contact} />
             </Wrapper>
+            <div className="push"></div>
             <Footer />
           </div>
         </Router>
