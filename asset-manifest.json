@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/%7BPortfolio%7D/static/css/main.570a342c.chunk.css",
+    "main.js": "/%7BPortfolio%7D/static/js/main.8fe21791.chunk.js",
+    "main.js.map": "/%7BPortfolio%7D/static/js/main.8fe21791.chunk.js.map",
+    "runtime-main.js": "/%7BPortfolio%7D/static/js/runtime-main.f707b660.js",
+    "runtime-main.js.map": "/%7BPortfolio%7D/static/js/runtime-main.f707b660.js.map",
+    "static/js/2.e607f15b.chunk.js": "/%7BPortfolio%7D/static/js/2.e607f15b.chunk.js",
+    "static/js/2.e607f15b.chunk.js.map": "/%7BPortfolio%7D/static/js/2.e607f15b.chunk.js.map",
+    "index.html": "/%7BPortfolio%7D/index.html",
+    "precache-manifest.a7d4c316b7ad4cbe8afbaa5b6e183ec1.js": "/%7BPortfolio%7D/precache-manifest.a7d4c316b7ad4cbe8afbaa5b6e183ec1.js",
+    "service-worker.js": "/%7BPortfolio%7D/service-worker.js",
+    "static/css/main.570a342c.chunk.css.map": "/%7BPortfolio%7D/static/css/main.570a342c.chunk.css.map",
+    "static/js/2.e607f15b.chunk.js.LICENSE.txt": "/%7BPortfolio%7D/static/js/2.e607f15b.chunk.js.LICENSE.txt",
+    "static/media/NRocketPic.jpg": "/%7BPortfolio%7D/static/media/NRocketPic.931c5090.jpg",
+    "static/media/eatdaburger.jpg": "/%7BPortfolio%7D/static/media/eatdaburger.39da1586.jpg",
+    "static/media/redicon.svg": "/%7BPortfolio%7D/static/media/redicon.fdbf3e7d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f707b660.js",
+    "static/js/2.e607f15b.chunk.js",
+    "static/css/main.570a342c.chunk.css",
+    "static/js/main.8fe21791.chunk.js"
+  ]
+}
