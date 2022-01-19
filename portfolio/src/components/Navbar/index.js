@@ -34,11 +34,20 @@ const Navbar = ({ element }) => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-        {/* <ul className="navbar-nav ml-auto">
-     <li className="nav-item"><Link className="nav-link" to="/portfolio">Portfolio <span className="sr-only">(current)</span></Link></li> 
-     
-      <li className="nav-item"> <Link className="nav-link" to="/contact">Contact</Link></li> 
-    </ul> */}
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/portfolio">
+              Portfolio <span className="sr-only">(current)</span>
+            </Link>
+          </li>
+
+          {/* <li className="nav-item">
+            {" "}
+            <Link className="nav-link" to="/contact">
+              Contact
+            </Link>
+          </li> */}
+        </ul>
       </div>
     </nav>
   );
