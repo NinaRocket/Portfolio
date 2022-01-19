@@ -36,7 +36,8 @@ function About() {
               with a Minor in Sociocultural Anthropology. I am a web developer,
               new to the field after completing a full stack web development
               bootcamp with the University of Arizona in partnership with
-              Triology Education. This page is under construction.
+              Triology Education in 2020. Stay tuned for more exciting updates
+              to this page!
             </p>
           </Col>
         </Row>
